@@ -20,3 +20,9 @@ popular are:
 - Ubuntu is a Debian-based operating system developed by Canonical
 - uses a core Debian package management system to install and manages packages
 - Ubuntu offers ease of use and a great user interface experience that has led to its wide adoption
+
+4. ### Fedora - [link to fedora](https://getfedora.org/)
+***Features***
+- the Fedora Project is community driven containing open-source and free software backed by Redhat
+- Fedora is an upstream RHEL operating system. Eventually RHEL will get updates from Fedora after thorough testing and quality assurance i.e Red Hat Enterprise Linux branches off Fedora
+- Uses Red Hat package manager (RPM) to install and manages packages
