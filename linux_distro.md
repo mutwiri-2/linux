@@ -12,3 +12,11 @@ popular are:
 - developed by Red Hat
 - has strict rules to restrict free re-distribution although it still provides source code for free.
 - uses RPM package manager to install and manages packages
+
+3. ### Ubuntu - [link to ubuntu](https://www.ubuntu.com/)
+***Features***
+- One of the most popular Linux distributions for personal machines
+- releases its own desktop environment manager Unity by default
+- Ubuntu is a Debian-based operating system developed by Canonical
+- uses a core Debian package management system to install and manages packages
+- Ubuntu offers ease of use and a great user interface experience that has led to its wide adoption
