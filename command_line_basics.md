@@ -6,4 +6,4 @@ Different shells will have different prompts, in our case the $ is for a normal 
 
 ### Commands
 
-- `echo` - prints out the text arguments to the display e.g `echo Hello World` will print Hello World to the display
+- `echo` - display a line of text
