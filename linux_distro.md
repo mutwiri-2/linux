@@ -45,3 +45,11 @@ popular are:
 - uses a rolling release model so incremental updates eventually become the Stable release
 - You really need to get your hands dirty to understand the system and its functions, but in turn you get complete and total control of your system.
 - uses its own package manager, Pacman, to install, update and manage packages.
+
+8. ### openSUSE - [link to openSUSE](https://software.opensuse.org/)
+***Features***
+- created by the openSUSE Project - A community that promotes the use of Linux everywhere, working together in an open, transparent and friendly manner as part of the worldwide Free and Open Source Software community
+- is the second oldest still running Linux Distributions and shares the base system with SUSE's award-winning SUSE Linux Enterprise products
+- Uses RPM package manager to install and manage packages
+- a great choice for a new Linux user. It offers an easy to use graphical installer/administration application (YaST) and a tiday base system, easy to tinker with.
+- openSUSE includes everything you need to enjoy the Internet worry free of viruses/spy-ware and to live out your creativity, be it with your photos, videos, music or code.
