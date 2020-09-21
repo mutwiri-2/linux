@@ -38,3 +38,10 @@ popular are:
 - offers ridiculous flexibility with the operating system at a price
 - It’s made for advanced users who don’t mind getting their hands dirty with the system.
 - uses its own package management, Portage. The Portage package management is very modular and easy to maintain, which plays a big part in the operating system as a whole being very flexible.
+
+7. ### Arch Linux - [link to Arch Linux](https://www.archlinux.org/)
+***Features***
+- a lightweight and flexible Linux distribution driven 100% by the community.
+- uses a rolling release model so incremental updates eventually become the Stable release
+- You really need to get your hands dirty to understand the system and its functions, but in turn you get complete and total control of your system.
+- uses its own package manager, Pacman, to install, update and manage packages.
