@@ -26,3 +26,15 @@ popular are:
 - the Fedora Project is community driven containing open-source and free software backed by Redhat
 - Fedora is an upstream RHEL operating system. Eventually RHEL will get updates from Fedora after thorough testing and quality assurance i.e Red Hat Enterprise Linux branches off Fedora
 - Uses Red Hat package manager (RPM) to install and manages packages
+
+5. ### Linux Mint - [link to linux mint](https://linuxmint.com/)
+***Features***
+- Linux Mint is based off of Ubuntu. It uses Ubuntu’s software repositories so the same packages are available on both distributions
+- uses the Debian package manager
+- Great user interface, great for beginners and less bloated than Ubuntu
+
+6. ### Gentoo - [link to gentoo](https://www.gentoo.org/
+***Features***
+- offers ridiculous flexibility with the operating system at a price
+- It’s made for advanced users who don’t mind getting their hands dirty with the system.
+- uses its own package management, Portage. The Portage package management is very modular and easy to maintain, which plays a big part in the operating system as a whole being very flexible.
