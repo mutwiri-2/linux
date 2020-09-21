@@ -4,7 +4,7 @@ Almost all Linux distributions will default to the bash (Bourne Again Shell) she
 
 Different shells will have different prompts, in our case the $ is for a normal user using Bash, Bourne or Korn shell, you don't add the prompt symbol when you type the command, just know that it's there
 
-### Commands
+### Basic Commands
 
 - `$echo` - display a line of text i.e Echo the STRING(s) to standard output.
 
