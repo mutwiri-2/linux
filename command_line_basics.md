@@ -6,8 +6,8 @@ Different shells will have different prompts, in our case the $ is for a normal 
 
 ### Commands
 
-- `echo` - display a line of text i.e Echo the STRING(s) to standard output.
+- `$echo` - display a line of text i.e Echo the STRING(s) to standard output.
 
-- `date` - Display the current time in the given FORMAT, or set the system date.
+- `$date` - Display the current time in the given FORMAT, or set the system date.
 
-- `whoami` - Print  the  user  name  associated  with the current effective user ID
+- `$whoami` - Print  the  user  name  associated  with the current effective user ID
