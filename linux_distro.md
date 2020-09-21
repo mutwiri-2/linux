@@ -33,7 +33,7 @@ popular are:
 - uses the Debian package manager
 - Great user interface, great for beginners and less bloated than Ubuntu
 
-6. ### Gentoo - [link to gentoo](https://www.gentoo.org/
+6. ### Gentoo - [link to gentoo](https://www.gentoo.org/)
 ***Features***
 - offers ridiculous flexibility with the operating system at a price
 - It’s made for advanced users who don’t mind getting their hands dirty with the system.
