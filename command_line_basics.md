@@ -40,3 +40,5 @@ Some useful flags to use with `$ls` command:
   * `ls -t` - sort by modification time, newest first
 
 **Note : Commands have things called flags (or arguments or options, whatever you want to call it) to add more functionality. See how we added -a and -l, well you can add them both together with -la. The order of the flags determines which order it goes in, most of the time this doesn’t really matter so you can also do ls -al and it would still work**
+
+- `$touch` - allows you to the create new empty files. Also used to change timestamps on existing files and directories
