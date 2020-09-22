@@ -95,3 +95,10 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
     
 - `$find` - search for files in a directory hierarchy. You’ll have to specify the directory you’ll be searching in (if not specified defaults to `.`), and then what you are searching for e.g `$ find Desktop/ -name earth.gif` - We are searching in Desktop for a file named earth.gif
   * You can also specify what type of file you are trying to find. e.g `$ find -type d -name books` i.e find in current directory (.) a directory named books
+
+
+- `$help [-dms] [pattern ...]` - Display information about other builtin commands. For other executable programs, it’s convention to have an option called --help or something similar.
+  * Displays brief summaries of builtin commands.  If PATTERN is specified, gives detailed help on all commands matching PATTERN, otherwise the list of help topics is printed.
+  * -d	output short description for each topic
+  * -m	display usage in pseudo-manpage format
+  * -s	output only a short usage synopsis for each topic matching PATTERN
