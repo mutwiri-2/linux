@@ -66,3 +66,12 @@ When you run the history, it displays a numbered list of all the commands you ha
   * *`ctrl-R` - he reverse search command, if you hit ctrl-R and you start typing parts of the command you want it will show you matches and you can just navigate through them by hitting the ctrl-R key again. Once you found the command you want to use again, just hit the Enter key*
   * *`$ clear` or `ctrl+l` - clears up your display*
   * *tab completion - If you start typing the beginning of a command, file, directory, etc and hit the Tab key, it will autocomplete based on what it finds in the directory you are searching as long as you don’t have any other files that start with those letters*
+
+- `$cp [OPTIONS]... SOURCE DEST` - copy files and directories. Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY
+You can copy multiple files and directories as well as use wildcards. A wildcard is a character that can be substituted for a pattern based selection, giving you more flexibility with searches. You can use wildcards in every command for more flexibility
+  - `*` the wildcard of wildcards, it's used to represent all single characters or any string.
+  - `?` used to represent one character
+  - `[]` used to represent any character within the brackets
+Some useful flags (OPTIONS) to use with `cp` command
+  * `-r` - this will recursively copy the files and directories within a directory.
+  * `-i` - (interactive) to prompt you before overwriting a file. This is because if you copy a file over to a directory that has the same filename, the file will be overwritten with whatever you are copying over.
