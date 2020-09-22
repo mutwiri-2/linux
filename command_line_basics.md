@@ -55,5 +55,6 @@ Once you’re in the less command, you can actually use other keyboard commands 
   * Page up, Page down, Up and Down - Navigate using the arrow keys and page keys.
   * g - Moves to beginning of the text file.
   * G - Moves to the end of the text file.
-  * /search - You can search for specific text inside the text document. Prefacing the words you want to search with /
+  * /pattern - Search forward for (N-th) matching line.
+  * ?pattern - Search backward for (N-th) matching line.
   * h - If you need a little help about how to use less while you’re in less, use help.
