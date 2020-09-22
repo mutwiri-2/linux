@@ -72,6 +72,6 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
   - `*` the wildcard of wildcards, it's used to represent all single characters or any string.
   - `?` used to represent one character
   - `[]` used to represent any character within the brackets
- * Some useful flags (OPTIONS) to use with `cp` command
-  * `-r` - this will recursively copy the files and directories within a directory.
-  * `-i` - (interactive) to prompt you before overwriting a file. This is because if you copy a file over to a directory that has the same filename, the file will be overwritten with whatever you are copying over.
+  * Some useful flags (OPTIONS) to use with `cp` command
+    * `-r` - this will recursively copy the files and directories within a directory.
+    * `-i` - (interactive) to prompt you before overwriting a file. This is because if you copy a file over to a directory that has the same filename, the file will be overwritten with whatever you are copying over.
