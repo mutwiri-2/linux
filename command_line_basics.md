@@ -30,3 +30,13 @@ It can get pretty tiring navigating with absolute and relative paths all the tim
   * `$cd ..` (parent directory). Takes you to the directory above your current.
   * `$cd ~` (home directory). This directory defaults to your “home directory”. Same as `$cd` without any flags
   * `$cd -` (previous directory). This will take you to the previous directory you were just at.
+
+- `$ls` - list directory contents (the current directory by default). The ls command will list directories and files in the current directory by default, however you can specify which path you want to list the directories of by typing it after the ls command
+Some useful flags to use with `$ls` command:
+  * `$ls -a` - list all files including hidden files (files that begin with a period (.)) 
+  * `$ls -l` - shows a detailed list of files in a long format. This will show you detailed information, starting from the left: file permissions, number of links, owner name, owner group, file size, timestamp of last modification, and file/directory name
+  * `ls -R` - recursively list directory contents
+  * `ls -r` - reverse order while sorting. Entries sorted alphabetically by default
+  * `ls -t` - sort by modification time, newest first
+
+**Note : Commands have things called flags (or arguments or options, whatever you want to call it) to add more functionality. See how we added -a and -l, well you can add them both together with -la. The order of the flags determines which order it goes in, most of the time this doesn’t really matter so you can also do ls -al and it would still work**
