@@ -102,3 +102,5 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
   * -d	output short description for each topic
   * -m	display usage in pseudo-manpage format
   * -s	output only a short usage synopsis for each topic matching PATTERN
+
+- `$man` - an interface to the system reference manuals. Man pages are manuals that are by default built into most Linux operating systems. They provide documentation about commands and other aspects of the system
