@@ -129,3 +129,5 @@ The description gets sourced from the manual page of each command
     `$alias foobar="ls -la"`. Now instead of typing 'ls -la' you can type foobar and it will execute the command
     * Keep in mind that this command won't save your alias after reboot, so you'll need to add a permanent alias in `~/.bashrc`
     * You can remove the aliases with `$unalias` command. You can remove many aliases at once
+
+- `$exit` - cause normal process termination. Exits from the shell.
