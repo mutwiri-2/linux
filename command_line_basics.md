@@ -58,3 +58,10 @@ Once you’re in the less command, you can actually use other keyboard commands 
   * `/pattern` - Search forward for (N-th) matching line.
   * `?pattern` - Search backward for (N-th) matching line.
   * `h` - If you need a little help about how to use less while you’re in less, use help.
+
+- `$history` - Many programs read input from the user a line at a time. The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information  from  previous  lines  in composing new ones
+  * *Want to run the same command you did before, just hit the up arrow.*
+  * *`!!` - run the previous command without typing it again*
+  * *`ctrl-R` - he reverse search command, if you hit ctrl-R and you start typing parts of the command you want it will show you matches and you can just navigate through them by hitting the ctrl-R key again. Once you found the command you want to use again, just hit the Enter key*
+  * *`$ clear` or `ctrl+l` - clears up your display*
+  * *tab completion - If you start typing the beginning of a command, file, directory, etc and hit the Tab key, it will autocomplete based on what it finds in the directory you are searching as long as you don’t have any other files that start with those letters*
