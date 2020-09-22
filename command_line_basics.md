@@ -93,3 +93,5 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
     * `$rm -r` -  (recursive) to remove all the files and any subdirectories it may have. You can’t just rm a directory by default, you’ll need to add the -r flag 
     * ***You can also remove a directory with the `rmdir` command. (fails if directory is not empty and does not accept the `-r` flag)***
     
+- `$find` - search for files in a directory hierarchy. You’ll have to specify the directory you’ll be searching in (if not specified defaults to `.`), and then what you are searching for e.g `$ find Desktop/ -name earth.gif` - We are searching in Desktop for a file named earth.gif
+  * You can also specify what type of file you are trying to find. e.g `$ find -type d -name books` i.e find in current directory (.) a directory named books
