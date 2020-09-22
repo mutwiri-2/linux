@@ -83,3 +83,13 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
 
 - `$mkdir [OPTION]... DIRECTORY...` - make directories. Create the DIRECTORY(ies), if they do not already exist.
   * `-p` (parent flag) - create subdirectories at the same time.
+
+- `$rm [OPTION]... [FILE]...` - remove files or directories. rm removes each specified file. By default, it does not remove directories.
+  * Take caution when using rm, there is no magical trash can that you can fish out removed files. Once they are gone, they are gone for good, so be careful.
+  * Write-protected files will prompt you for confirmation before deleting them. If a directory is write-protected it will also not be easily removed.
+  * Some useful flags (OPTIONS) for the `rm` command:
+    * `&rm -f` - -f or force option tells rm to remove all files, whether they are write protected or not, without prompting the user (as long as you have the appropriate permissions).
+    * `$rm -i` - interactive. give you a prompt on whether you want to actually remove the files or directories
+    * `$rm -r` -  (recursive) to remove all the files and any subdirectories it may have. You can’t just rm a directory by default, you’ll need to add the -r flag 
+    ***You can remove a directory with the `rmdir` command. (fails if directory is not empty)***
+    
