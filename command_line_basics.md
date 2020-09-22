@@ -28,5 +28,5 @@ It can get pretty tiring navigating with absolute and relative paths all the tim
 
   * `$cd .` (current directory). This is the directory you are currently in.
   * `$cd ..` (parent directory). Takes you to the directory above your current.
-  * `$cd ~` (home directory). This directory defaults to your “home directory”. Same as `$cd` without any arguments
+  * `$cd ~` (home directory). This directory defaults to your “home directory”. Same as `$cd` without any flags
   * `$cd -` (previous directory). This will take you to the previous directory you were just at.
