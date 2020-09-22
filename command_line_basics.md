@@ -63,7 +63,7 @@ Once you’re in the less command, you can actually use other keyboard commands 
 When you run the history, it displays a numbered list of all the commands you have run and the last command will always be history because it is the one you have run last
   * *Want to run the same command you did before, just hit the up arrow.*
   * *`!!` - run the previous command without typing it again*
-  * *`ctrl-R` - he reverse search command, if you hit ctrl-R and you start typing parts of the command you want it will show you matches and you can just navigate through them by hitting the ctrl-R key again. Once you found the command you want to use again, just hit the Enter key*
+  * *`ctrl-R` - The reverse search command, if you hit ctrl-R and you start typing parts of the command you want it will show you matches and you can just navigate through them by hitting the ctrl-R key again. Once you found the command you want to use again, just hit the Enter key*
   * *`$ clear` or `ctrl+l` - clears up your display*
   * *tab completion - If you start typing the beginning of a command, file, directory, etc and hit the Tab key, it will autocomplete based on what it finds in the directory you are searching as long as you don’t have any other files that start with those letters*
 
