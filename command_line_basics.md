@@ -47,3 +47,13 @@ Some useful flags to use with `$ls` command:
 
 - `$cat` - concatenate files and print on the standard output. With no FILE, or when FILE is -, read standard input.
 It’s not great for viewing large files and it’s only meant for short content.
+
+- `$less` - for viewing text files larger than a simple output. Less  does  not  have to read the entire input file before starting, so with large input files it starts up faster than text editors  like vi.
+The text is displayed in a paged manner, so you can navigate through a text file page by page
+Once you’re in the less command, you can actually use other keyboard commands to navigate in the file:
+  * q - Used to quit out of less and go back to your shell.
+  * Page up, Page down, Up and Down - Navigate using the arrow keys and page keys.
+  * g - Moves to beginning of the text file.
+  * G - Moves to the end of the text file.
+  * /search - You can search for specific text inside the text document. Prefacing the words you want to search with /
+  * h - If you need a little help about how to use less while you’re in less, use help.
