@@ -80,3 +80,6 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
   * Some useful flags (OPTIONS) to use with `mv` command
     * `-i` - (interactive) to prompt you before overwriting a file. This is because if you move a file over to a directory that has the same filename, the file will be overwritten with whatever you are moving over.
     * `-b` - make a backup of each existing destination file (one that is overwritten) and it will just rename the old version with a `~` at the end
+
+- `$mkdir [OPTION]... DIRECTORY...` - make directories. Create the DIRECTORY(ies), if they do not already exist.
+  * `-p` (parent flag) - create subdirectories at the same time.
