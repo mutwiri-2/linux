@@ -45,4 +45,5 @@ Some useful flags to use with `$ls` command:
 
 - `$file` - determine file type. file tests each argument in an attempt to classify it. There are three sets of tests, performed in this order: filesystem tests, magic tests, and language tests. The first test that succeeds causes the file type to be printed.
 
-    
+- `$cat` - concatenate files and print on the standard output. With no FILE, or when FILE is -, read standard input.
+It’s not great for viewing large files and it’s only meant for short content.
