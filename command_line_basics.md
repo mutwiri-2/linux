@@ -75,3 +75,8 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
   * Some useful flags (OPTIONS) to use with `cp` command
     * `-r` - this will recursively copy the files and directories within a directory.
     * `-i` - (interactive) to prompt you before overwriting a file. This is because if you copy a file over to a directory that has the same filename, the file will be overwritten with whatever you are copying over.
+
+- `$mv [OPTION]...SOURCE DEST` - move (rename) files. Rename SOURCE to DEST, or move SOURCE(s) to DEST 
+  * Some useful flags (OPTIONS) to use with `mv` command
+    * `-i` - (interactive) to prompt you before overwriting a file. This is because if you move a file over to a directory that has the same filename, the file will be overwritten with whatever you are moving over.
+    * `-b` - make a backup of each existing destination file (one that is overwritten) and it will just rename the old version with a `~` at the end
