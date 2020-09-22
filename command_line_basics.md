@@ -42,3 +42,6 @@ Some useful flags to use with `$ls` command:
 **Note : Commands have things called flags (or arguments or options, whatever you want to call it) to add more functionality. See how we added -a and -l, well you can add them both together with -la. The order of the flags determines which order it goes in, most of the time this doesn’t really matter so you can also do ls -al and it would still work**
 
 - `$touch` - allows you to the create new empty files. Also used to change timestamps on existing files and directories
+
+`$file` - determine file type. file tests each argument in an attempt to classify it. There are three
+     sets of tests, performed in this order: filesystem tests, magic tests, and language tests. The first test that succeeds causes the file type to be printed.
