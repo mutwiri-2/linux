@@ -24,3 +24,9 @@ Different shells will have different prompts, in our case the $ is for a normal 
   * There are two different ways to specify a path:
      * Absolute path: This is the path from the root directory. The root directory is commonly shown as a slash. Every time your path starts with / it means you are starting from the root directory.
      * Relative path: This is the path from where you are currently in filesystem.
+It can get pretty tiring navigating with absolute and relative paths all the time, luckily there are some shortcuts to help you out.
+
+* `$cd .` (current directory). This is the directory you are currently in.
+* `$cd ..` (parent directory). Takes you to the directory above your current.
+* `$cd ~` (home directory). This directory defaults to your “home directory”. Same as `$cd` without any arguments
+* `$cd -` (previous directory). This will take you to the previous directory you were just at.
