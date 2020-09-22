@@ -109,3 +109,21 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
 The description gets sourced from the manual page of each command
 
 - `$logout` - Exit a login shell. Exits a login shell with exit status N.  Returns an error if not executed in a login shell.
+
+-`$alias [-p] [name[=value] ... ]` - Define or display aliases.
+    * Without arguments, `alias` prints the list of aliases in the reusable
+    form `alias NAME=VALUE` on standard output.
+    * Otherwise, an alias is defined for each NAME whose VALUE is given.
+    A trailing space in VALUE causes the next word to be checked for
+    alias substitution when the alias is expanded.
+    
+    * Options:
+      -p	print all defined aliases in a reusable format
+    
+    * Exit Status:
+    alias returns true unless a NAME is supplied for which no alias has been
+    defined.
+
+    * Alias is a short way to type long commands or to avoid repetition.
+    * To create an alias for a command, you simply specify an alias name and set it to the command e.g
+    `$alias foobar="ls -la"`. Now instead of typing 'ls -la' you can type foobar and it will execute the command
