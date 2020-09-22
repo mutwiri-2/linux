@@ -107,3 +107,5 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
 
 -`$whatis` - display one-line manual page descriptions. if you are ever feeling doubtful about what a command does, you can use the whatis command. The whatis command provides a brief description of command line programs.
 The description gets sourced from the manual page of each command
+
+- `$logout` - Exit a login shell. Exits a login shell with exit status N.  Returns an error if not executed in a login shell.
