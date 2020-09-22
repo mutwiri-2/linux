@@ -110,7 +110,7 @@ The description gets sourced from the manual page of each command
 
 - `$logout` - Exit a login shell. Exits a login shell with exit status N.  Returns an error if not executed in a login shell.
 
--`$alias [-p] [name[=value] ... ]` - Define or display aliases.
+- `$alias [-p] [name[=value] ... ]` - Define or display aliases.
     * Without arguments, `alias` prints the list of aliases in the reusable
     form `alias NAME=VALUE` on standard output.
     * Otherwise, an alias is defined for each NAME whose VALUE is given.
