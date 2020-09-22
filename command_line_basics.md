@@ -104,3 +104,6 @@ You can copy multiple files and directories as well as use wildcards. A wildcard
   * -s	output only a short usage synopsis for each topic matching PATTERN
 
 - `$man` - an interface to the system reference manuals. Man pages are manuals that are by default built into most Linux operating systems. They provide documentation about commands and other aspects of the system
+
+-`$whatis` - display one-line manual page descriptions. if you are ever feeling doubtful about what a command does, you can use the whatis command. The whatis command provides a brief description of command line programs.
+The description gets sourced from the manual page of each command
